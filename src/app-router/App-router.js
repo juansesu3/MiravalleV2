@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavbarC from "../components/home/navbar/NavbarC";
+import Home from "../components/home/Home";
+import NavbarC from "../components/navbar/NavbarC";
 
 
 const AppRouter = () => {
@@ -8,6 +9,7 @@ const AppRouter = () => {
         <>
             <BrowserRouter>
                 <NavbarC />
+                <Home/>
                 <Routes>
                     <Route path="*" />
                     <Route path="/" />
