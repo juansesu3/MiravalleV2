@@ -1,11 +1,10 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AppRouter from './app-router/App-router';
 function App() {
   return (
     <div >
-      <h1>Miravalle-App</h1>
-     
-      
+      <AppRouter/> 
     </div>
   );
 }
