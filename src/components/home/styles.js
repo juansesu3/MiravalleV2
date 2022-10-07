@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Father = styled.div`
-margin-top:2rem;
+margin-top:6rem;
 display:flex;
 flex-wrap: wrap;
 flex-direction: row;

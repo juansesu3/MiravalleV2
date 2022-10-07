@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../components/home/Home";
 import NavbarC from "../components/navbar/NavbarC";
+import Footer from "../components/footer/Footer";
+import TemplatedV1 from "../components/templated_house/TemplatedV1";
 
 
 const AppRouter = () => {
@@ -9,10 +11,12 @@ const AppRouter = () => {
         <>
             <BrowserRouter>
                 <NavbarC />
-                <Home/>
+
+                <Footer />
                 <Routes>
-                    <Route path="*" />
-                    <Route path="/" />
+                    <Route path="home" element={<Home />} />
+                    <Route path="templated" element={<TemplatedV1 />} />
+
                 </Routes>
             </BrowserRouter>
         </>
