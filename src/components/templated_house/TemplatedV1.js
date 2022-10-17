@@ -8,7 +8,7 @@ const TemplatedV1 = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://imganuncios.mitula.net/casas_venta_dapa_8060100644583525418.jpg"
+        src="https://res.cloudinary.com/dv08oqgvx/image/upload/v1666026270/WhatsApp_Image_2022-10-12_at_6.38.45_AM_yfhqhl.jpg"
         alt="First slide"
       />
       <Carousel.Caption>
@@ -19,7 +19,7 @@ const TemplatedV1 = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://imganuncios.mitula.net/casas_venta_dapa_8060100644583525418.jpg"
+        src="https://res.cloudinary.com/dv08oqgvx/image/upload/v1666026269/WhatsApp_Image_2022-10-12_at_6.47.15_AM_1_kko2ib.jpg"
         alt="Second slide"
       />
 
@@ -31,7 +31,7 @@ const TemplatedV1 = () => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://imganuncios.mitula.net/casas_venta_dapa_8060100644583525418.jpg"
+        src="https://res.cloudinary.com/dv08oqgvx/image/upload/v1666026270/WhatsApp_Image_2022-10-12_at_6.47.12_AM_nrarcf.jpg"
         alt="Third slide"
       />
 
