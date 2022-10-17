@@ -14,7 +14,7 @@ import { faEnvelope, faSolidFaHouse } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
   return (
     <ContainerFooter>
-        <Link  to="home" ><Button variant="primary"><FontAwesomeIcon icon={faHouse } /></Button></Link>
+        <Link  to="Home" ><Button variant="primary">Home</Button></Link>
       
        
 

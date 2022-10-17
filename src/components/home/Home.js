@@ -17,8 +17,7 @@ const Home = () => {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -29,8 +28,7 @@ const Home = () => {
       />
 
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -41,20 +39,20 @@ const Home = () => {
       />
 
       <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
+    
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
     <Card.Body>
       <Card.Title>Casa 1</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      <ul>
+        <li>item 1 </li>
+        <li>item 2 </li>
+        <li>item 3</li>
+        </ul>
       </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
+      <Link  to="templated" ><Button variant="primary">Details</Button></Link>
     </Card.Body>
   </Card>
   </div>
@@ -68,8 +66,7 @@ const Home = () => {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -80,8 +77,7 @@ const Home = () => {
       />
 
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -92,20 +88,20 @@ const Home = () => {
       />
 
       <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
+
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
     <Card.Body>
       <Card.Title>Casa 1</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      <ul>
+        <li>item 1 </li>
+        <li>item 2 </li>
+        <li>item 3</li>
+        </ul>
       </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
+      <Link  to="templated" ><Button variant="primary">Details</Button></Link>
     </Card.Body>
   </Card>
   </div>
@@ -119,8 +115,7 @@ const Home = () => {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -131,8 +126,7 @@ const Home = () => {
       />
 
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -143,20 +137,20 @@ const Home = () => {
       />
 
       <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
+
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
     <Card.Body>
       <Card.Title>Casa 1</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      <ul>
+        <li>item 1 </li>
+        <li>item 2 </li>
+        <li>item 3</li>
+        </ul>
       </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
+      <Link  to="templated" ><Button variant="primary">Details</Button></Link>
     </Card.Body>
   </Card>
   </div>
@@ -170,8 +164,7 @@ const Home = () => {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -182,8 +175,7 @@ const Home = () => {
       />
 
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -194,20 +186,21 @@ const Home = () => {
       />
 
       <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
+       
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
     <Card.Body>
       <Card.Title>Casa 1</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+        <ul>
+        <li>item 1 </li>
+        <li>item 2 </li>
+        <li>item 3</li>
+        </ul>
+      
       </Card.Text>
-      <Link  to="templated" ><Button variant="primary">Go somewhere</Button></Link>
+      <Link  to="templated" ><Button variant="primary">Details</Button></Link>
     </Card.Body>
   </Card>
   </div>
