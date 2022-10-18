@@ -7,6 +7,7 @@ import Features from '././sub-components/features/features';
 import Location from '././sub-components/location/Location';
 import Surroundings from './sub-components/surroundings/Surroundings'
 import AppSouterSubComp from '././../../app-router/AppSouterSubComp'
+import NavbarSubComp from '../templated_house/sub-components/navbarSubComp/NavbarSubComp'
 
 const TemplatedV1 = () => {
   return (
@@ -55,15 +56,7 @@ const TemplatedV1 = () => {
       <ContainerDesign>
 
   
-      <ContainerDetails>
-
-<span><Link to="/features" >Features</Link></span>
-<span><Link to="/location" >Location</Link></span>
-<span><Link to="/surroundings" >Surroundings</Link></span>
-
-
-
-</ContainerDetails>
+<NavbarSubComp/>
  
       </ContainerDesign>
      
