@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerFooter } from './styles'
+import { ButtonSC, ContainerFooter } from './styles'
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -14,7 +14,7 @@ import { faEnvelope, faSolidFaHouse } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
   return (
     <ContainerFooter>
-        <Link  to="Home" ><Button variant="primary">Home</Button></Link>
+        <Link  to="Home" ><ButtonSC>Home</ButtonSC></Link>
       
        
 
