@@ -2,7 +2,11 @@ import React from 'react'
 import { Container } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
-import {ContainerDetails, Father, ContainerDesign} from './styles';
+import {ContainerDetails, Father, ContainerDesign, ContSubComp} from './styles';
+import Features from '././sub-components/features/features';
+import Location from '././sub-components/location/Location';
+import Surroundings from './sub-components/surroundings/Surroundings'
+import AppSouterSubComp from '././../../app-router/AppSouterSubComp'
 
 const TemplatedV1 = () => {
   return (
@@ -49,16 +53,20 @@ const TemplatedV1 = () => {
       <h2>More Details</h2>
       </div>
       <ContainerDesign>
+
+  
       <ContainerDetails>
-        
-          <span><Link to="/features" >features</Link></span>
-          <span><Link to="/location" >Location</Link></span>
-          <span><Link to="/surroundings" >Surroundings</Link></span>
 
-          
+<span><Link to="/features" >Features</Link></span>
+<span><Link to="/location" >Location</Link></span>
+<span><Link to="/surroundings" >Surroundings</Link></span>
 
-      </ContainerDetails>
+
+
+</ContainerDetails>
+ 
       </ContainerDesign>
+     
     </Father>
 
   )
