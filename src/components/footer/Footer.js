@@ -1,24 +1,16 @@
 import React from 'react'
 import { ButtonSC, ContainerFooter } from './styles'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouseUser } from '@fortawesome/free-solid-svg-icons'
 
 import { Link } from 'react-router-dom';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faPlus } from '@fortawesome/free-solid-svg-icons';
-//import ReactDOM from 'react-dom'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faEnvelope, faSolidFaHouse } from '@fortawesome/free-solid-svg-icons'
-
-
-
 
 const Footer = () => {
   return (
     <ContainerFooter>
-        <Link  to="Home" ><ButtonSC>Home</ButtonSC></Link>
-      
-       
-
+        <Link  to="Home" ><ButtonSC><FontAwesomeIcon icon={faHouseUser}/></ButtonSC></Link>
     </ContainerFooter>
+ 
 
   )
 }

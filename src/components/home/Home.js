@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBath, faBed, faChartArea, faDollarSign, faPersonCircleQuestion} from '@fortawesome/free-solid-svg-icons'
 import Card from 'react-bootstrap/Card';
 import { CardSc, Father, ImgSC, CarouselSC, ButtonSC } from './styles';
 
@@ -44,16 +45,18 @@ const Home = () => {
     </CarouselSC.Item>
   </CarouselSC>
     <Card.Body>
-      <p>Lorem / ipsum</p>
-      <Card.Title>Casa 1</Card.Title>
+      <p>Location / ipsum</p>
+      <Card.Title>House 1</Card.Title>
       <Card.Text>
       <ul>
-        <li>item 1 </li>
-        <li>item 2 </li>
-        <li>item 3</li>
+      <li><FontAwesomeIcon icon={faBed} /> 3</li>
+        <li><FontAwesomeIcon icon={faBath} /> 3</li>
+        
+        <li><FontAwesomeIcon icon={faChartArea}/> 120 mts<sup>2</sup></li>
         </ul>
-        <p>Price: $ xxxx-xxx</p>
-        <p>Admin: $ xxxx-xxx</p>
+        
+        <p><strong>LF:</strong> <FontAwesomeIcon icon={faDollarSign} /> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
+        <p><strong>MG:</strong> <FontAwesomeIcon icon={faDollarSign}/> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
       </Card.Text>  
       <Link  to="templated" ><ButtonSC variant="primary">Details</ButtonSC></Link>
     </Card.Body>
@@ -96,16 +99,18 @@ const Home = () => {
     </CarouselSC.Item>
   </CarouselSC>
   <Card.Body>
-      <p>Lorem / ipsum</p>
-      <Card.Title>Casa 1</Card.Title>
+      <p>Location / ipsum</p>
+      <Card.Title>House 2</Card.Title>
       <Card.Text>
       <ul>
-        <li>item 1 </li>
-        <li>item 2 </li>
-        <li>item 3</li>
+      <li><FontAwesomeIcon icon={faBed} /> 3</li>
+        <li><FontAwesomeIcon icon={faBath} /> 3</li>
+        
+        <li><FontAwesomeIcon icon={faChartArea}/> 120 mts<sup>2</sup></li>
         </ul>
-        <p>Price: $ xxxx-xxx</p>
-        <p>Admin: $ xxxx-xxx</p>
+        
+        <p><strong>LF:</strong> <FontAwesomeIcon icon={faDollarSign} /> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
+        <p><strong>MG:</strong> <FontAwesomeIcon icon={faDollarSign}/> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
       </Card.Text>  
       <Link  to="templated" ><ButtonSC variant="primary">Details</ButtonSC></Link>
     </Card.Body>
@@ -148,16 +153,18 @@ const Home = () => {
     </CarouselSC.Item>
   </CarouselSC>
   <Card.Body>
-      <p>Lorem / ipsum</p>
-      <Card.Title>Casa 1</Card.Title>
+      <p>Location / ipsum</p>
+      <Card.Title>House 3</Card.Title>
       <Card.Text>
       <ul>
-        <li>item 1 </li>
-        <li>item 2 </li>
-        <li>item 3</li>
+      <li><FontAwesomeIcon icon={faBed} /> 3</li>
+        <li><FontAwesomeIcon icon={faBath} /> 3</li>
+        
+        <li><FontAwesomeIcon icon={faChartArea}/> 120 mts<sup>2</sup></li>
         </ul>
-        <p>Price: $ xxxx-xxx</p>
-        <p>Admin: $ xxxx-xxx</p>
+        
+        <p><strong>LF:</strong> <FontAwesomeIcon icon={faDollarSign} /> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
+        <p><strong>MG:</strong> <FontAwesomeIcon icon={faDollarSign}/> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
       </Card.Text>  
       <Link  to="templated" ><ButtonSC variant="primary">Details</ButtonSC></Link>
     </Card.Body>
@@ -200,16 +207,18 @@ const Home = () => {
     </CarouselSC.Item>
   </CarouselSC>
   <Card.Body>
-      <p>Lorem / ipsum</p>
-      <Card.Title>Casa 1</Card.Title>
+      <p>Location / ipsum</p>
+      <Card.Title>House 4</Card.Title>
       <Card.Text>
       <ul>
-        <li>item 1 </li>
-        <li>item 2 </li>
-        <li>item 3</li>
+      <li><FontAwesomeIcon icon={faBed} /> 3</li>
+        <li><FontAwesomeIcon icon={faBath} /> 3</li>
+        
+        <li><FontAwesomeIcon icon={faChartArea}/> 120 mts<sup>2</sup></li>
         </ul>
-        <p>Price: $ xxxx-xxx</p>
-        <p>Admin: $ xxxx-xxx</p>
+        
+        <p><strong>LF:</strong> <FontAwesomeIcon icon={faDollarSign} /> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
+        <p><strong>MG:</strong> <FontAwesomeIcon icon={faDollarSign}/> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
       </Card.Text>  
       <Link  to="templated" ><ButtonSC variant="primary">Details</ButtonSC></Link>
     </Card.Body>
