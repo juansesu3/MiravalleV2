@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
 import { CardSc, Father, ImgSC, CarouselSC, ButtonSC } from './styles';
 
