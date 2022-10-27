@@ -44,6 +44,12 @@ const Home = ({ emailUsuario }) => {
     getList()
   }, [list])
 
+  const deletePropertie = async (id)=>{
+
+    await deleteDoc(doc(db, 'propertie'))
+
+  }
+
   return (
     <Father>
       <div>
@@ -102,6 +108,8 @@ const Home = ({ emailUsuario }) => {
             <p><strong>MG:</strong> <FontAwesomeIcon icon={faDollarSign} /> 1'500.000 cop <FontAwesomeIcon icon={faPersonCircleQuestion} /></p>
           </Card.Text>
           <Link to="templated" ><ButtonSC variant="primary">Details</ButtonSC></Link>
+          <ButtonSC variant="danger" onClick={()=>deletePropertie(list.id)}>Deleted</ButtonSC>
+          <ButtonSC variant="success">Updated</ButtonSC>
         </Card.Body>
       </CardSc>
           ))
