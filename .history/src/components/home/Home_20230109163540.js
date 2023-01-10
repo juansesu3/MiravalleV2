@@ -13,10 +13,11 @@ const Home = () => {
       "canonRent":"",
       "admon":"",
       "cantRoom":"",
-      "cantBatRoom":"",
-      "area":"",
       "contract":"",
-      "images":""
+      "images":{ 
+        " ",
+      ""}
+
     },
 
 

@@ -8,15 +8,15 @@ const Home = () => {
 
   const house = [
     {
-      "idHouse":"",
       "houseName":"",
       "canonRent":"",
       "admon":"",
       "cantRoom":"",
-      "cantBatRoom":"",
-      "area":"",
-      "contract":"",
-      "images":""
+      "contract":""
+      
+
+
+
     },
 
 

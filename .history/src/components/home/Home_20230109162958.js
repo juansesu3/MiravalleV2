@@ -6,21 +6,7 @@ import { CardSc, Father, ImgSC, CarouselSC, ButtonSC } from './styles';
 import { Link } from 'react-router-dom';
 const Home = () => {
 
-  const house = [
-    {
-      "idHouse":"",
-      "houseName":"",
-      "canonRent":"",
-      "admon":"",
-      "cantRoom":"",
-      "cantBatRoom":"",
-      "area":"",
-      "contract":"",
-      "images":""
-    },
-
-
-  ]
+  
 
 
   return (

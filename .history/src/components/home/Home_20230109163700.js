@@ -14,9 +14,10 @@ const Home = () => {
       "admon":"",
       "cantRoom":"",
       "cantBatRoom":"",
-      "area":"",
+      
       "contract":"",
       "images":""
+
     },
 
 

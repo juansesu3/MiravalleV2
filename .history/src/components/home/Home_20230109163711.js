@@ -17,6 +17,7 @@ const Home = () => {
       "area":"",
       "contract":"",
       "images":""
+
     },
 
 
